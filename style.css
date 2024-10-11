@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to right, #000000, #434343);
+  font-family: 'Arial', sans-serif;
+}
+
+.clock-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  color: white; /* Default text color */
+}
+
+.clock-heading {
+  font-size: 3rem; /* Responsive font size */
+  margin-bottom: 20px;
+  animation: rotate 10s linear infinite; /* Rotate effect */
+}
+
+
+.time-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between time blocks */
+}
+
+.time-block {
+  text-align: center;
+}
+
+.time-label {
+  font-size: 1.5rem; /* Smaller font size for labels */
+}
+
+.time {
+  font-size: 4rem; /* Large font size for time */
+  color: white; /* White color for time */
+  text-shadow: 
+  0 0 5px rgb(231, 53, 208),   /* Light glow */
+  0 0 10px rgb(62, 172, 227),  /* Medium glow */
+  0 0 15px rgb(77, 153, 235),  /* Strong glow */
+  0 0 20px rgb(37, 142, 207);  /* Very strong glow */
+}
