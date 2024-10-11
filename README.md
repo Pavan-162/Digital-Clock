@@ -28,7 +28,7 @@ Open your terminal or command prompt, and run the following command:
 
 bash
 Copy code
-git clone https://github.com/yourusername/digital-clock.git
+git clone https://github.com/Pavan=162/digital-clock.git
 Note: Replace yourusername with your actual GitHub username if you are hosting this repository on GitHub. If not, replace it with the repository URL.
 
 Navigate to the Project Directory:
